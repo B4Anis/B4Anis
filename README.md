@@ -29,6 +29,14 @@ Fourth-year engineering student at **ENSIA** — the National Higher School of A
 
 ## Featured Projects
 
+
+###  Hospital Readmission Risk — End-to-End MLOps
+Production-style MLOps pipeline for hospital readmission and length-of-stay prediction: **XGBoost** models, an **MLflow** registry (champion/challenger), a **FastAPI** serving layer, **Evidently** drift detection with automated retraining, **Fairlearn** fairness checks, a **Streamlit** dashboard, Docker Compose, and GitHub Actions CI.
+
+`Python` · `XGBoost` · `MLflow` · `FastAPI` · `Evidently` · `Docker` · `CI`
+&nbsp;·&nbsp; [**Repo →**](https://github.com/B4Anis/hospital-readmission-mlops)
+
+
 ###  Islamic Studies Scholarly Platform — RAG Engine
 Core **Retrieval-Augmented Generation** engine for a scholarly assistant that answers questions from authenticated sources (Qur'an, Hadith, Fiqh, Tafsir, Fatwa) with strict, **citation-first** responses. JSON-to-vector ingestion with **BGE-M3** embeddings in **Qdrant**, an intent-aware search router that applies metadata filters *before* retrieval to eliminate context pollution, and a citation-first generation layer over a quantized **Qwen 2.5-7B-Instruct**. Deployed on NVIDIA H100 GPUs.
 
@@ -55,11 +63,6 @@ A React front-end and Express.js back-end integrating LLMs (**Mistral 7B, DeepSe
 
 `React` · `Express.js` · `Hugging Face` · `Groq API` · `RAG` · `LLMs`
 
-###  Hospital Readmission Risk — End-to-End MLOps
-Production-style MLOps pipeline for hospital readmission and length-of-stay prediction: **XGBoost** models, an **MLflow** registry (champion/challenger), a **FastAPI** serving layer, **Evidently** drift detection with automated retraining, **Fairlearn** fairness checks, a **Streamlit** dashboard, Docker Compose, and GitHub Actions CI.
-
-`Python` · `XGBoost` · `MLflow` · `FastAPI` · `Evidently` · `Docker` · `CI`
-&nbsp;·&nbsp; [**Repo →**](https://github.com/B4Anis/hospital-readmission-mlops)
 
 ### Clinic Management System
 Full-stack clinic platform (Sidi-Abdellah clinic) built as **Project Manager / Lead Developer** under Scrum: a **Node.js / Express / MongoDB** backend with JWT auth and REST APIs, and a **React / TypeScript / Redux** frontend with appointment scheduling.
